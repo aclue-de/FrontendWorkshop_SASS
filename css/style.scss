@@ -1,0 +1,32 @@
+$primary-font: Roboto, sans-serif;
+$background-color: rgb(31, 165, 40);
+$warning-color: red;
+
+@import "links";
+
+@mixin box($color: purple) {
+    box-shadow: 0 0 1rem 0.3rem black;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: $color;
+}
+
+@mixin flex{
+    display: flex;
+    display: -webkit-flex;
+}
+
+body{
+    font: 100% $primary-font;
+    color: $background-color;
+    div{
+        p{
+            @include flex;
+            @include box; 
+            font: 110% $primary-font;
+            color: $warning-color;
+        }
+    }
+}
+
+  

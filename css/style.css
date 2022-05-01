@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font: 100% Roboto, sans-serif;
+  color: #1fa528;
+}
+
+body div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-shadow: 0 0 1rem 0.3rem black;
+          box-shadow: 0 0 1rem 0.3rem black;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: purple;
+  font: 110% Roboto, sans-serif;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
